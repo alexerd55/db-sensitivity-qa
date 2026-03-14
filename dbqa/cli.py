@@ -210,7 +210,7 @@ def _print_summary(report) -> None:
     # Privilege warnings
     priv_findings = [f for f in report.findings if "PRIVILEGE" in f.tags]
     if priv_findings:
-        console.print("[bold yellow]⚠  Privilege warnings:[/bold yellow]")
+        console.print("[bold yellow]!! Privilege warnings:[/bold yellow]")
         for pf in priv_findings:
             color = _SEV_COLORS.get(pf.severity, "white")
             console.print(f"  [{color}]{pf.severity}[/{color}]  {pf.details}")

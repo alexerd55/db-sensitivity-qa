@@ -1,1 +1,1 @@
-python -c "from dbqa.cli import cli; cli(standalone_mode=True)" scan --dsn "postgresql+psycopg2://postgres:dbqa123@localhost:5432/dbqa_testdb" --schemas "public,app" --output "B:\Sve\TudjiProjekti\Aca\Python analiza baze\report.json"
+python -c "from dbqa.cli import cli; cli(standalone_mode=True)" scan --dsn "postgresql+psycopg2://postgres:dbqa123@localhost:5432/dbqa" --schemas "public,app" --output report.json
