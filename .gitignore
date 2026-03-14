@@ -1,0 +1,17 @@
+# Python
+_pycache_/
+*.pyc
+*.pyo
+.env
+
+# Reporti — sadrže potencijalno osetljive nalaze
+report.json
+report.html
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
