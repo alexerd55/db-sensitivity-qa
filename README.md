@@ -91,7 +91,7 @@ pytest tests/
 - Statement timeout is enforced per query (`SET statement_timeout`)
 - Columns of type `bytea`, `json`, `jsonb`, `xml` are not sampled
 - String values are truncated to 256 chars in memory before analysis
-
+- Data in the SQL query is fake 
 ## Limitations
 
 This is a **QA heuristic scanner**, not a security audit tool.
